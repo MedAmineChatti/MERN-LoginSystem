@@ -1,7 +1,7 @@
 # MERN_Login_sys
 - Install dependencies for server : npm install
 - Install dependencies for client : cd client ---> npm install
-- Connect to your mongodb and add info in .env
+- Connect to your mongodb and add info in .env 
 - Put this code ON .env file : 
                  MONGODB_URL = PUT_YOUR_MONGO_URL
                  ACCESS_TOKEN_SECRET = PUT SECRE TOKEN
