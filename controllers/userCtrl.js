@@ -23,7 +23,7 @@ const userCtrl = {
 
 
             var date_sys = new Date();
-            d = date_sys.getDay() + 1;
+            d = date_sys.getDate() + 1;
             m = date_sys.getMonth() + 1;
             var register_date = date_sys.getFullYear() + "/" + m + "/" + d +" - "+date_sys.getHours() + ":" + date_sys.getMinutes() + ":" + date_sys.getSeconds();
 
@@ -75,7 +75,7 @@ const userCtrl = {
 
 
             var date_sys = new Date();
-            d = date_sys.getDay()+1;
+            d = date_sys.getDate()+1;
             m = date_sys.getMonth() + 1;
             var login_date = date_sys.getFullYear() + "/" + m + "/" +d+" - "+date_sys.getHours() + ":" + date_sys.getMinutes() + ":" + date_sys.getSeconds();
 
